@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3B37942923E2F2C878FA583AE18FECD6"
-               BuildableName = "KLDevice.framework"
+               BuildableName = "KLDevice"
                BlueprintName = "KLDevice"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
