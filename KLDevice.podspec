@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KLDevice'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KLDevice.'
+  s.summary          = 'Deviceinfo.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
+设备信息
                        DESC
 
   s.homepage         = 'hhttps://github.com/Ray0218/KLDevice'
