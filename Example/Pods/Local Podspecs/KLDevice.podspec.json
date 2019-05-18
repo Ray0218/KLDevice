@@ -1,9 +1,9 @@
 {
   "name": "KLDevice",
   "version": "0.1.0",
-  "summary": "A short description of KLDevice.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ray_ios@163.com/KLDevice",
+  "summary": "Deviceinfo.",
+  "description": "TODO: Add long description of the pod here.\n设备信息",
+  "homepage": "hhttps://github.com/Ray0218/KLDevice",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "ray_ios@163.com": "ray_ios@163.com"
   },
   "source": {
-    "git": "https://github.com/ray_ios@163.com/KLDevice.git",
+    "git": "https://github.com/Ray0218/KLDevice.git",
     "tag": "0.1.0"
   },
   "platforms": {

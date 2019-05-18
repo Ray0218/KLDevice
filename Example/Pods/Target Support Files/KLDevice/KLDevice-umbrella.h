@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "PSDefine.h"
 
 FOUNDATION_EXPORT double KLDeviceVersionNumber;
 FOUNDATION_EXPORT const unsigned char KLDeviceVersionString[];

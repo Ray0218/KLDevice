@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		03AE8D45B24D80CB198EECE782737A2D /* Pods-KLDevice_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C8E02B341388C7DFB8E49BA378FB24 /* Pods-KLDevice_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F338E183641996C5580EA98D9D273A8 /* KLDevice-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F860AEE898E55EACC672548BE22D740C /* KLDevice-dummy.m */; };
 		2FC06F6F2D530511BD6B0DDF70661FC2 /* Pods-KLDevice_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 365CC7122D03DE9A446F485EEA043B13 /* Pods-KLDevice_Example-dummy.m */; };
-		483E84A49A211646E8B8A672D4B3F23F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D21743BC54A287FFDC429689EF88FC /* ReplaceMe.m */; };
 		55FEF267A9D895E139A71D4056547D79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		6E18E227E335C7DA925EFD74248FA73E /* KLDevice-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF99AC8929FDADF0DA17F57EED0BC734 /* KLDevice-dummy.m */; };
+		5AC9BD8BC235CFAF07907669A111E245 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		98F5C54A68F2EC6AC1CD4BD641E6419D /* KLDevice-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 219480B92C0A099C1247E64E1B27BCD4 /* KLDevice-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D8513041E6306E9B9E1FD4FCE775A7D /* PSDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 86883D035E0F813BC5D22A68564D701F /* PSDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8640144147E33AB869F4F69B78AE6A6 /* Pods-KLDevice_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FEAE283EA42A8C8F52450998B6F8A0 /* Pods-KLDevice_Tests-dummy.m */; };
-		CCECBB9347D9CE88F29EB348393DDD55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		DE5D75F14D0DD4B2275A821E13DE6542 /* Pods-KLDevice_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 653EE6550D4CC39288007F12881D41F7 /* Pods-KLDevice_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9751344B86F1B5239586AC2B54123CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E97B251F69123F8AEF1C4B5DC67232D9 /* KLDevice-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30700342FFD91EEB0C64D843756B8748 /* KLDevice-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F89019F12EF0BD49722AA4927E088F34 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6EFF9605AE17F24820E53FEE66A2B0 /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,38 +38,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040C835A58C64040185CDD59D3B42749 /* KLDevice-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KLDevice-Info.plist"; sourceTree = "<group>"; };
 		17C8E02B341388C7DFB8E49BA378FB24 /* Pods-KLDevice_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KLDevice_Example-umbrella.h"; sourceTree = "<group>"; };
-		18370021C8823FAF3DC27B6C19C6F67B /* KLDevice.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KLDevice.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		219480B92C0A099C1247E64E1B27BCD4 /* KLDevice-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KLDevice-umbrella.h"; sourceTree = "<group>"; };
 		2C00258DE6841CC0F98317562381D28B /* Pods-KLDevice_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KLDevice_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2EBAC90C60D4DC48C21CE0BB2E54B91A /* Pods-KLDevice_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KLDevice_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		30700342FFD91EEB0C64D843756B8748 /* KLDevice-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KLDevice-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		34A458EABA946515968D07D2037AB0BF /* Pods-KLDevice_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KLDevice_Tests-Info.plist"; sourceTree = "<group>"; };
 		3659B8447F0720B29EF5EC08F7E33B10 /* Pods-KLDevice_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KLDevice_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		365CC7122D03DE9A446F485EEA043B13 /* Pods-KLDevice_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KLDevice_Example-dummy.m"; sourceTree = "<group>"; };
 		38BA24F4A78F067B714FE19A898D2522 /* Pods-KLDevice_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KLDevice_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5538A80B985026E8DC1C12B8C831AD6C /* Pods-KLDevice_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KLDevice_Tests.modulemap"; sourceTree = "<group>"; };
+		5553B99437AA69D87A27BE6361D31D2E /* KLDevice-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KLDevice-prefix.pch"; sourceTree = "<group>"; };
 		5D96E86730ECD9A9C24B57579D9CC8F8 /* Pods-KLDevice_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KLDevice_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		653EE6550D4CC39288007F12881D41F7 /* Pods-KLDevice_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KLDevice_Tests-umbrella.h"; sourceTree = "<group>"; };
-		70AB6E215C7C46A34627FC1B26E9FC1B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		729F9E94B0A454C92B3E7107EAE5B34F /* Pods-KLDevice_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KLDevice_Example-Info.plist"; sourceTree = "<group>"; };
-		8147DE711FFFBBB5ECF3C7D62CF75EDD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		82D21743BC54A287FFDC429689EF88FC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = KLDevice/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		86883D035E0F813BC5D22A68564D701F /* PSDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PSDefine.h; sourceTree = "<group>"; };
 		88DAA121BD46598F8480F978C017EC59 /* Pods-KLDevice_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KLDevice_Example.modulemap"; sourceTree = "<group>"; };
-		88FACCBFAFB0B2508FD8A22EBE360643 /* KLDevice.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KLDevice.modulemap; sourceTree = "<group>"; };
-		8AE51673C531D14B15DD9D3B4BD3DFF2 /* KLDevice-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KLDevice-prefix.pch"; sourceTree = "<group>"; };
 		908C6565E4622D333BC2779D87D4CD42 /* Pods-KLDevice_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KLDevice_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		94FEAE283EA42A8C8F52450998B6F8A0 /* Pods-KLDevice_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KLDevice_Tests-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A475FA2D988F46A4C192D6E7AA953EA5 /* Pods_KLDevice_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KLDevice_Example.framework; path = "Pods-KLDevice_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6EFF9605AE17F24820E53FEE66A2B0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = KLDevice/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		AD6F4D47C840B384129FCFB919775F51 /* KLDevice.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KLDevice.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B6543F1E0F801AD84E0F87E5B0543581 /* Pods-KLDevice_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KLDevice_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C888DFA9F94961DC09B551E58F8E1112 /* KLDevice.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KLDevice.xcconfig; sourceTree = "<group>"; };
+		D03EF1E7C8822534A65654418C87B75A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D4251FE046921F6AF73005E7C643055A /* Pods-KLDevice_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KLDevice_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E3BA7549E19F124916FDCC6CDB4E46AB /* Pods-KLDevice_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KLDevice_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EDB3D378209BAA48D15CB3FA37544C43 /* KLDevice-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KLDevice-Info.plist"; sourceTree = "<group>"; };
+		E868EFA2B54591F5B4B92EBA981B76EF /* KLDevice.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KLDevice.modulemap; sourceTree = "<group>"; };
+		E982B18D39134105B7C5B4CCBFAB9F25 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F8026603E27E3ECEB238E9D9773386F4 /* Pods_KLDevice_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KLDevice_Tests.framework; path = "Pods-KLDevice_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F860AEE898E55EACC672548BE22D740C /* KLDevice-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KLDevice-dummy.m"; sourceTree = "<group>"; };
 		F8DA0DE5057F62DB5CA2F546503FE795 /* KLDevice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KLDevice.framework; path = KLDevice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FED7E05CDA1DE7EB418E7BF32BDA22F7 /* KLDevice.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KLDevice.xcconfig; sourceTree = "<group>"; };
-		FF99AC8929FDADF0DA17F57EED0BC734 /* KLDevice-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KLDevice-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,11 +82,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D30884E7AC753618A338E2DF5BA166D /* Frameworks */ = {
+		9649F3B3369C61A46958E67F96609D7A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCECBB9347D9CE88F29EB348393DDD55 /* Foundation.framework in Frameworks */,
+				5AC9BD8BC235CFAF07907669A111E245 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +101,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0511BB282A4D003A84D0328B6742FE29 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E868EFA2B54591F5B4B92EBA981B76EF /* KLDevice.modulemap */,
+				C888DFA9F94961DC09B551E58F8E1112 /* KLDevice.xcconfig */,
+				F860AEE898E55EACC672548BE22D740C /* KLDevice-dummy.m */,
+				040C835A58C64040185CDD59D3B42749 /* KLDevice-Info.plist */,
+				5553B99437AA69D87A27BE6361D31D2E /* KLDevice-prefix.pch */,
+				219480B92C0A099C1247E64E1B27BCD4 /* KLDevice-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KLDevice";
+			sourceTree = "<group>";
+		};
 		383A2F4CBE616FFFB245BC79B3A7BC52 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,20 +122,6 @@
 				5076C9B68D80FDE9EFD8A91AD5550418 /* Pods-KLDevice_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		3F6209428A4F2EFF32B99745BEE76425 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				88FACCBFAFB0B2508FD8A22EBE360643 /* KLDevice.modulemap */,
-				FED7E05CDA1DE7EB418E7BF32BDA22F7 /* KLDevice.xcconfig */,
-				FF99AC8929FDADF0DA17F57EED0BC734 /* KLDevice-dummy.m */,
-				EDB3D378209BAA48D15CB3FA37544C43 /* KLDevice-Info.plist */,
-				8AE51673C531D14B15DD9D3B4BD3DFF2 /* KLDevice-prefix.pch */,
-				30700342FFD91EEB0C64D843756B8748 /* KLDevice-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KLDevice";
 			sourceTree = "<group>";
 		};
 		5076C9B68D80FDE9EFD8A91AD5550418 /* Pods-KLDevice_Tests */ = {
@@ -148,30 +150,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		709DEB1C852E486BB9532FEB8E54D440 /* Pod */ = {
+		A21D5BE23C368A12DA679FC60A3A550C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				18370021C8823FAF3DC27B6C19C6F67B /* KLDevice.podspec */,
-				70AB6E215C7C46A34627FC1B26E9FC1B /* LICENSE */,
-				8147DE711FFFBBB5ECF3C7D62CF75EDD /* README.md */,
+				AD6F4D47C840B384129FCFB919775F51 /* KLDevice.podspec */,
+				D03EF1E7C8822534A65654418C87B75A /* LICENSE */,
+				E982B18D39134105B7C5B4CCBFAB9F25 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		81FA3D18E581F354C8C3F59AA7CC74AE /* Development Pods */ = {
+		BCDADB60506566F7AD9752317171B001 /* KLDevice */ = {
 			isa = PBXGroup;
 			children = (
-				B7F7C8A1C4A75C4D88D9BD9F44D04DF9 /* KLDevice */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B7F7C8A1C4A75C4D88D9BD9F44D04DF9 /* KLDevice */ = {
-			isa = PBXGroup;
-			children = (
-				82D21743BC54A287FFDC429689EF88FC /* ReplaceMe.m */,
-				709DEB1C852E486BB9532FEB8E54D440 /* Pod */,
-				3F6209428A4F2EFF32B99745BEE76425 /* Support Files */,
+				AA6EFF9605AE17F24820E53FEE66A2B0 /* ReplaceMe.m */,
+				C74BD3FA079560A464D8522AB0E8CE97 /* Configure */,
+				A21D5BE23C368A12DA679FC60A3A550C /* Pod */,
+				0511BB282A4D003A84D0328B6742FE29 /* Support Files */,
 			);
 			name = KLDevice;
 			path = ../..;
@@ -185,11 +180,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C74BD3FA079560A464D8522AB0E8CE97 /* Configure */ = {
+			isa = PBXGroup;
+			children = (
+				86883D035E0F813BC5D22A68564D701F /* PSDefine.h */,
+			);
+			name = Configure;
+			path = KLDevice/Classes/Configure;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				81FA3D18E581F354C8C3F59AA7CC74AE /* Development Pods */,
+				DD292F7A6824F554CC0CBCA0DE0813A4 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				620B0BBA41EB0C171698DE91C62E4A7D /* Products */,
 				383A2F4CBE616FFFB245BC79B3A7BC52 /* Targets Support Files */,
@@ -202,6 +206,14 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD292F7A6824F554CC0CBCA0DE0813A4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCDADB60506566F7AD9752317171B001 /* KLDevice */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		EB1A3958001EAD479C35A4C260B41B17 /* Pods-KLDevice_Example */ = {
@@ -224,14 +236,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B0659AE7C7A1F1D7D976C555EDF54E1B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E97B251F69123F8AEF1C4B5DC67232D9 /* KLDevice-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B5C8F5A72D1E5FBCADC405F76E125241 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -248,17 +252,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FDE8A8411E69313AF5197BBED7EF3FDE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F5C54A68F2EC6AC1CD4BD641E6419D /* KLDevice-umbrella.h in Headers */,
+				9D8513041E6306E9B9E1FD4FCE775A7D /* PSDefine.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		3B37942923E2F2C878FA583AE18FECD6 /* KLDevice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D64A4E3A415388D9D9EB45C5D7D5FC61 /* Build configuration list for PBXNativeTarget "KLDevice" */;
+			buildConfigurationList = ED4EF88A78A35A47FF386E58BB0403CC /* Build configuration list for PBXNativeTarget "KLDevice" */;
 			buildPhases = (
-				B0659AE7C7A1F1D7D976C555EDF54E1B /* Headers */,
-				A6784D7B23422FD7D734BAFEE41764BE /* Sources */,
-				9D30884E7AC753618A338E2DF5BA166D /* Frameworks */,
-				56D07A21F3B60408AB21FC91C5D76AA6 /* Resources */,
+				FDE8A8411E69313AF5197BBED7EF3FDE /* Headers */,
+				22D658A95E2BAEEC9FF005D980C9C507 /* Sources */,
+				9649F3B3369C61A46958E67F96609D7A /* Frameworks */,
+				47450FA95BC5C145A124FDA523C8F323 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -343,7 +356,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		56D07A21F3B60408AB21FC91C5D76AA6 /* Resources */ = {
+		47450FA95BC5C145A124FDA523C8F323 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,20 +373,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		22D658A95E2BAEEC9FF005D980C9C507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F338E183641996C5580EA98D9D273A8 /* KLDevice-dummy.m in Sources */,
+				F89019F12EF0BD49722AA4927E088F34 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64BF9CA881F4FF57E933ABAEFA1BAF61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2FC06F6F2D530511BD6B0DDF70661FC2 /* Pods-KLDevice_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A6784D7B23422FD7D734BAFEE41764BE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6E18E227E335C7DA925EFD74248FA73E /* KLDevice-dummy.m in Sources */,
-				483E84A49A211646E8B8A672D4B3F23F /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,36 +509,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		736342D9818D5176FFF8C6057781D4E3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FED7E05CDA1DE7EB418E7BF32BDA22F7 /* KLDevice.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KLDevice/KLDevice-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KLDevice/KLDevice-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KLDevice/KLDevice.modulemap";
-				PRODUCT_MODULE_NAME = KLDevice;
-				PRODUCT_NAME = KLDevice;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -658,9 +641,39 @@
 			};
 			name = Debug;
 		};
-		B3B71C0CED2C4596D5F53BB46F78C2EB /* Release */ = {
+		8F7BD9A1B651746FB6788CA3DF9A4D4C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FED7E05CDA1DE7EB418E7BF32BDA22F7 /* KLDevice.xcconfig */;
+			baseConfigurationReference = C888DFA9F94961DC09B551E58F8E1112 /* KLDevice.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KLDevice/KLDevice-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KLDevice/KLDevice-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KLDevice/KLDevice.modulemap";
+				PRODUCT_MODULE_NAME = KLDevice;
+				PRODUCT_NAME = KLDevice;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF44D33C4DEB7592F40E14700C8EEEE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C888DFA9F94961DC09B551E58F8E1112 /* KLDevice.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -752,11 +765,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D64A4E3A415388D9D9EB45C5D7D5FC61 /* Build configuration list for PBXNativeTarget "KLDevice" */ = {
+		ED4EF88A78A35A47FF386E58BB0403CC /* Build configuration list for PBXNativeTarget "KLDevice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				736342D9818D5176FFF8C6057781D4E3 /* Debug */,
-				B3B71C0CED2C4596D5F53BB46F78C2EB /* Release */,
+				8F7BD9A1B651746FB6788CA3DF9A4D4C /* Debug */,
+				AF44D33C4DEB7592F40E14700C8EEEE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
