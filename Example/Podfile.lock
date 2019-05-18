@@ -1,0 +1,16 @@
+PODS:
+  - KLDevice (0.1.0)
+
+DEPENDENCIES:
+  - KLDevice (from `../`)
+
+EXTERNAL SOURCES:
+  KLDevice:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KLDevice: db2e063d0dcad6b5a2913591e5b04e7cd955a957
+
+PODFILE CHECKSUM: 9029d6371e528f0173565c23112068dd441dd0fa
+
+COCOAPODS: 1.7.0.rc.2

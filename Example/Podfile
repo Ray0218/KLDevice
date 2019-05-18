@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'KLDevice_Example' do
+  pod 'KLDevice', :path => '../'
+
+  target 'KLDevice_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
